@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Player Page</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#111;
+    text-align:center;
+}
+
+/* video container */
+.video-box{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* video style */
+.my-video{
+    width:80%;
+    max-width:900px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.6);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="video-box">
+
+<video class="my-video" controls autoplay muted loop poster="thumbnail.jpg">
+    <source src="sample-video.mp4" type="video/mp4">
+    Your browser cannot play this video.
+</video>
+
+</div>
+
+</body>
+</html>
