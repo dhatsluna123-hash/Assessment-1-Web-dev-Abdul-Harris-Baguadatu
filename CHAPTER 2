@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A New Hope - Star Wars Movie Page</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Verdana, sans-serif;
+    background-color:#0b0b0b;
+    color:#f2f2f2;
+}
+
+/* top menu */
+.menu{
+    background-color:#1a1a1a;
+    padding:12px;
+    text-align:center;
+}
+
+.menu a{
+    color:gold;
+    margin:0 20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.menu a:hover{
+    color:white;
+}
+
+/* content layout */
+.wrapper{
+    width:80%;
+    margin:auto;
+    padding:25px;
+}
+
+.title{
+    text-align:center;
+    color:gold;
+}
+
+.card{
+    background:#141414;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+}
+
+h2{
+    color:gold;
+}
+
+/* button style */
+.link-btn{
+    display:inline-block;
+    background:gold;
+    color:black;
+    padding:10px 18px;
+    border-radius:6px;
+    text-decoration:none;
+    margin-top:20px;
+}
+
+.link-btn:hover{
+    background:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="menu">
+    <a href="#about">About</a>
+    <a href="#actors">Actors</a>
+    <a href="#opinion">Opinion</a>
+</div>
+
+<div class="wrapper">
+
+<h1 class="title">Star Wars: Episode IV – A New Hope</h1>
+
+<div class="card" id="about">
+<h2>Movie Overview</h2>
+<p>
+The story follows Luke Skywalker, a young boy living on a desert planet.
+He becomes part of a rebellion that wants to stop the powerful Galactic Empire.
+Together with new friends, he goes on an adventure to save Princess Leia and fight evil.
+</p>
+</div>
+
+<div class="card" id="actors">
+<h2>Main Cast</h2>
+<p>
+Luke Skywalker – Mark Hamill<br>
+Han Solo – Harrison Ford<br>
+Princess Leia – Carrie Fisher<br>
+Directed by George Lucas
+</p>
+</div>
+
+<div class="card" id="opinion">
+<h2>Movie Review</h2>
+<p>
+This movie is one of the most famous science-fiction films ever made.
+It introduced many unforgettable characters and amazing space adventures.
+Even today, many people still enjoy watching it.
+</p>
+
+<a href="https://www.starwars.com" target="_blank" class="link-btn">
+Visit Official Website
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
