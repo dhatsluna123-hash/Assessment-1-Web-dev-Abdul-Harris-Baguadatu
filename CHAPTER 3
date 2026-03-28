@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Technology Photo Gallery</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f4f4f4;
+    margin:30px;
+    text-align:center;
+}
+
+h1{
+    color:#333;
+}
+
+/* image style */
+.tech-img{
+    width:320px;
+    height:auto;
+    margin:15px;
+    border-radius:8px;
+    border:3px solid #222;
+    filter: grayscale(15%) contrast(115%) brightness(110%);
+}
+
+/* container for images */
+.gallery{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.caption{
+    font-size:14px;
+    color:#555;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Technology Image Gallery</h1>
+
+<div class="gallery">
+
+<div>
+<img src="https://picsum.photos/id/1015/320/220" class="tech-img" alt="Electronic circuit board">
+<p class="caption">Free image from Picsum – Circuit Board</p>
+</div>
+
+<div>
+<img src="https://picsum.photos/id/160/320/220" class="tech-img" alt="Laptop with programming code">
+<p class="caption">Free image from Picsum – Coding Laptop</p>
+</div>
+
+<div>
+<img src="https://picsum.photos/id/201/320/220" class="tech-img" alt="Technology server room">
+<p class="caption">Free image from Picsum – Data Center</p>
+</div>
+
+</div>
+
+</body>
+</html>
