@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fuel Cost Tool</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Tahoma, sans-serif;
+    background-color:#e9edf3;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    padding:25px;
+    width:320px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+h1{
+    color:#333;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    text-align:left;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border-radius:6px;
+    border:1px solid #bbb;
+}
+
+input:focus{
+    border-color:#0099cc;
+    outline:none;
+}
+
+.btn{
+    margin-top:15px;
+    padding:12px;
+    width:100%;
+    border:none;
+    background:#0099cc;
+    color:white;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#0077aa;
+}
+
+.result-box{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+    color:#2e7d32;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Fuel Price Calculator</h1>
+
+<label>Price per litre:</label>
+<input type="number" id="price" value="1.72" step="0.01">
+
+<label>Litres used:</label>
+<input type="number" id="qty" value="0" step="0.1">
+
+<button class="btn" onclick="computeTotal()">Calculate</button>
+
+<div id="output" class="result-box"></div>
+
+</div>
+
+<script>
+
+function computeTotal(){
+
+let price = parseFloat(document.getElementById("price").value);
+let litres = parseFloat(document.getElementById("qty").value);
+
+let totalCost = price * litres;
+
+document.getElementById("output").innerHTML =
+"Total Price: £" + totalCost.toFixed(2);
+
+}
+
+</script>
+
+</body>
+</html>
