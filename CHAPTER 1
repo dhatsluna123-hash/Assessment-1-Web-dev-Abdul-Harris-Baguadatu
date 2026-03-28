@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homemade Chocolate Chip Cookie Recipe</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fff5f0;
+    margin: 30px;
+}
+
+h1{
+    color: #8b4513;
+    text-align: center;
+}
+
+h2{
+    color: #5a2e0a;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Soft Chocolate Chip Cookies</h1>
+
+<p style="text-align:center;">
+A simple and delicious recipe for soft homemade chocolate chip cookies.
+Great for snacks, parties, or sharing with family.
+</p>
+
+<h2>Ingredients Needed</h2>
+
+<ul>
+<li>1 cup softened butter</li>
+<li>3/4 cup white sugar</li>
+<li>3/4 cup brown sugar</li>
+<li>2 eggs</li>
+<li>2 teaspoons vanilla extract</li>
+<li>2 1/4 cups all-purpose flour</li>
+<li>1 teaspoon baking soda</li>
+<li>1 teaspoon salt</li>
+<li>2 cups chocolate chips</li>
+</ul>
+
+<h2>Steps to Follow</h2>
+
+<ol>
+<li>Heat the oven to 190°C.</li>
+<li>Mix the butter, white sugar, and brown sugar until smooth.</li>
+<li>Add the eggs one by one, then mix in the vanilla.</li>
+<li>In another bowl, combine flour, baking soda, and salt.</li>
+<li>Slowly mix the dry ingredients into the wet mixture.</li>
+<li>Add the chocolate chips and mix well.</li>
+<li>Place spoonfuls of dough onto a baking tray.</li>
+<li>Bake for about 10 minutes or until golden brown.</li>
+<li>Let the cookies cool before serving.</li>
+</ol>
+
+</div>
+
+</body>
+</html>
